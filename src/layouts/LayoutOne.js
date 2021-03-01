@@ -19,11 +19,11 @@ const LayoutOne = ({
         headerPositionClass={headerPositionClass}
       />
       {children}
-      {/* <FooterOne
-        backgroundColorClass="bg-gray"
-        spaceTopClass="pt-100"
-        spaceBottomClass="pb-70"
-      /> */}
+      <FooterOne
+        backgroundColorClass='bg-gray'
+        spaceTopClass='pt-100'
+        spaceBottomClass='pb-70'
+      />
     </Fragment>
   );
 };
