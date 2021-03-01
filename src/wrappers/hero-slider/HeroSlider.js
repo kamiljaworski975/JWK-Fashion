@@ -1,7 +1,16 @@
 import React from 'react';
-import Swiper from 'react-id-swiper';
+
+import SwiperCore, { Navigation } from 'swiper';
+
+import { Swiper, SwiperSlide } from 'swiper/react';
 import heroSliderData from '../../data/hero-sliders/hero-slider-one.json';
 import HeroSliderOneSingle from '../../components/hero-slider/HeroSliderOneSingle';
+
+// Import Swiper styles
+import 'swiper/swiper.scss';
+import 'swiper/components/navigation/navigation.scss';
+
+SwiperCore.use([Navigation]);
 
 const HeroSliderOne = () => {
   const params = {
@@ -18,7 +27,10 @@ const HeroSliderOne = () => {
       prevEl: '.swiper-button-prev',
     },
     renderPrevButton: () => (
-      <button className='swiper-button-prev ht-swiper-button-nav'>
+      <button
+        onClick={() => console.log('prev butt')}
+        className='swiper-button-prev ht-swiper-button-nav'
+      >
         <i className='pe-7s-angle-left' />
       </button>
     ),
@@ -32,17 +44,20 @@ const HeroSliderOne = () => {
   return (
     <div className='slider-area'>
       <div className='slider-active nav-style-1'>
-        <Swiper {...params}>
+        <Swiper params={params} slidesPerView={1} navigation>
           {heroSliderData &&
             heroSliderData.map((single, key) => {
               return (
-                <HeroSliderOneSingle
-                  sliderClassName='swiper-slide'
-                  data={single}
-                  key={key}
-                />
+                <SwiperSlide key={key}>
+                  <HeroSliderOneSingle
+                    sliderClassName='swiper-slide'
+                    data={single}
+                    key={key}
+                  />
+                </SwiperSlide>
               );
             })}
+          ...
         </Swiper>
       </div>
     </div>
