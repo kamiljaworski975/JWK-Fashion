@@ -10,6 +10,7 @@ const HomeFashion = lazy(() => import('./pages/home/HomeFashion'));
 
 // Shop page
 const ShopColection = lazy(() => import('./pages/shop/ShopCollection'));
+const Product = lazy(() => import('./pages/shop/Product'));
 
 // Contact page
 const Contact = lazy(() => import('./pages/contact/Contact'));
@@ -19,6 +20,18 @@ const BlogStandard = lazy(() => import('./pages/blog/BlogStandard'));
 const BlogDetailsStandard = lazy(() =>
   import('./pages/blog/BlogDetailsStandard')
 );
+
+const MyAccount = lazy(() => import('./pages/other/MyAccount'));
+const LoginRegister = lazy(() => import('./pages/other/LoginRegister'));
+
+const Cart = lazy(() => import('./pages/other/Cart'));
+const Wishlist = lazy(() => import('./pages/other/Wishlist'));
+const Compare = lazy(() => import('./pages/other/Compare'));
+const Checkout = lazy(() => import('./pages/other/Checkout'));
+
+const NotFound = lazy(() => import('./pages/other/NotFound'));
+
+const About = lazy(() => import('./pages/other/About'));
 
 const App = () => {
   return (
@@ -58,6 +71,44 @@ const App = () => {
                 <Route
                   path={process.env.PUBLIC_URL + '/blog-details-standard'}
                   component={BlogDetailsStandard}
+                />
+                <Route
+                  path={process.env.PUBLIC_URL + '/about'}
+                  component={About}
+                />
+                <Route
+                  path={process.env.PUBLIC_URL + '/my-account'}
+                  component={MyAccount}
+                />
+                <Route
+                  path={process.env.PUBLIC_URL + '/login-register'}
+                  component={LoginRegister}
+                />
+                <Route
+                  path={process.env.PUBLIC_URL + '/cart'}
+                  component={Cart}
+                />
+                <Route
+                  path={process.env.PUBLIC_URL + '/wishlist'}
+                  component={Wishlist}
+                />
+                <Route
+                  path={process.env.PUBLIC_URL + '/compare'}
+                  component={Compare}
+                />
+                <Route
+                  path={process.env.PUBLIC_URL + '/checkout'}
+                  component={Checkout}
+                />
+                <Route
+                  path={process.env.PUBLIC_URL + '/not-found'}
+                  component={NotFound}
+                />
+                <Route
+                  path={process.env.PUBLIC_URL + '/product/:id'}
+                  render={(routeProps) => (
+                    <Product {...routeProps} key={routeProps.match.params.id} />
+                  )}
                 />
               </Switch>
             </Suspense>
