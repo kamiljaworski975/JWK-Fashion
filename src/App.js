@@ -8,8 +8,17 @@ import { BreadcrumbsProvider } from 'react-breadcrumbs-dynamic';
 // HomePage
 const HomeFashion = lazy(() => import('./pages/home/HomeFashion'));
 
-// Shop pages
+// Shop page
 const ShopColection = lazy(() => import('./pages/shop/ShopCollection'));
+
+// Contact page
+const Contact = lazy(() => import('./pages/contact/Contact'));
+
+// Blog page
+const BlogStandard = lazy(() => import('./pages/blog/BlogStandard'));
+const BlogDetailsStandard = lazy(() =>
+  import('./pages/blog/BlogDetailsStandard')
+);
 
 const App = () => {
   return (
@@ -37,6 +46,18 @@ const App = () => {
                   exact
                   path={process.env.PUBLIC_URL + '/collection'}
                   component={ShopColection}
+                />
+                <Route
+                  path={process.env.PUBLIC_URL + '/contact'}
+                  component={Contact}
+                />
+                <Route
+                  path={process.env.PUBLIC_URL + '/blog'}
+                  component={BlogStandard}
+                />
+                <Route
+                  path={process.env.PUBLIC_URL + '/blog-details-standard'}
+                  component={BlogDetailsStandard}
                 />
               </Switch>
             </Suspense>
