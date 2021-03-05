@@ -16,10 +16,7 @@ const HomeFashion = () => {
           content='Fashion home of JWK react minimalist eCommerce template'
         />
       </MetaTags>
-      <LayoutOne
-        headerContainerClass='container-fluid'
-        headerPaddingClass='header-padding-1'
-      >
+      <LayoutOne headerTop='visible'>
         {/* hero slider */}
         <HeroSlider />
 

@@ -8,6 +8,9 @@ import { BreadcrumbsProvider } from 'react-breadcrumbs-dynamic';
 // HomePage
 const HomeFashion = lazy(() => import('./pages/home/HomeFashion'));
 
+// Shop pages
+const ShopColection = lazy(() => import('./pages/shop/ShopCollection'));
+
 const App = () => {
   return (
     <ToastProvider placement='bottom-left'>
@@ -29,6 +32,11 @@ const App = () => {
                   exact
                   path={process.env.PUBLIC_URL + '/'}
                   component={HomeFashion}
+                />
+                <Route
+                  exact
+                  path={process.env.PUBLIC_URL + '/collection'}
+                  component={ShopColection}
                 />
               </Switch>
             </Suspense>
