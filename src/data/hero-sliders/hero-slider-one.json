@@ -3,21 +3,21 @@
     "id": 1,
     "title": "Smart Products",
     "subtitle": "Winter Offer 2020 Collection",
-    "image": "/assets/img/slider/single-slide-hm1-2.png",
+    "image": "/assets/img/slider/slider-one.jpg",
     "url": "/collection"
   },
   {
     "id": 2,
     "title": "Smart Products 2",
     "subtitle": "Summer Offer 2020 Collection",
-    "image": "/assets/img/slider/single-slide-1.png",
+    "image": "/assets/img/slider/slider-one.jpg",
     "url": "/collection"
   },
   {
     "id": 3,
     "title": "Smart Products 3",
     "subtitle": "Summer 2020 Collection",
-    "image": "/assets/img/slider/single-slide-1.png",
+    "image": "/assets/img/slider/slider-one.jpg",
     "url": "/collection"
   }
 ]

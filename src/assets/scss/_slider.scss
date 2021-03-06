@@ -50,6 +50,7 @@
 .single-slider {
   display: flex;
   align-items: flex-end;
+  padding-bottom: 6rem;
   .slider-content {
     padding: 183px 0 0;
     @media #{$xl-layout} {
