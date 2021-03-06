@@ -34,13 +34,17 @@
         width: 100%;
         height: 100%;
 
-        content: "";
+        content: '';
 
         opacity: 0.5;
         background-color: #fff;
       }
     }
   }
+}
+
+.u-z-index {
+  z-index: 10000;
 }
 
 .single-slider {
@@ -163,99 +167,99 @@
 
 .swiper-slide .slider-content * {
   -webkit-animation-duration: 1.3s;
-          animation-duration: 1.3s;
+  animation-duration: 1.3s;
 
   -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-fill-mode: both;
 }
 
 .swiper-slide-active {
   .slider-animated-1 {
     h3 {
       -webkit-animation-name: fadeInUp;
-              animation-name: fadeInUp;
-      -webkit-animation-delay: 1.0s;
-              animation-delay: 1.0s;
+      animation-name: fadeInUp;
+      -webkit-animation-delay: 1s;
+      animation-delay: 1s;
     }
     h1 {
       -webkit-animation-name: fadeInUp;
-              animation-name: fadeInUp;
+      animation-name: fadeInUp;
       -webkit-animation-delay: 1.3s;
-              animation-delay: 1.3s;
+      animation-delay: 1.3s;
     }
     h5 {
       -webkit-animation-name: fadeInUp;
-              animation-name: fadeInUp;
+      animation-name: fadeInUp;
       -webkit-animation-delay: 1.5s;
-              animation-delay: 1.5s;
+      animation-delay: 1.5s;
     }
     p {
       -webkit-animation-name: fadeInUp;
-              animation-name: fadeInUp;
+      animation-name: fadeInUp;
       -webkit-animation-delay: 1.5s;
-              animation-delay: 1.5s;
+      animation-delay: 1.5s;
     }
     a {
       -webkit-animation-name: fadeInUp;
-              animation-name: fadeInUp;
+      animation-name: fadeInUp;
       -webkit-animation-delay: 1.6s;
-              animation-delay: 1.6s;
+      animation-delay: 1.6s;
     }
     &.slider-single-img img {
       -webkit-animation-name: fadeInUp;
-              animation-name: fadeInUp;
+      animation-name: fadeInUp;
       -webkit-animation-delay: 1.6s;
-              animation-delay: 1.6s;
+      animation-delay: 1.6s;
     }
     &.single-slider-img4 img {
       -webkit-animation-name: fadeInUp;
-              animation-name: fadeInUp;
+      animation-name: fadeInUp;
       -webkit-animation-delay: 1.6s;
-              animation-delay: 1.6s;
+      animation-delay: 1.6s;
     }
     &.slider-singleimg-hm9 img {
       -webkit-animation-name: fadeInUp;
-              animation-name: fadeInUp;
+      animation-name: fadeInUp;
       -webkit-animation-delay: 1.6s;
-              animation-delay: 1.6s;
+      animation-delay: 1.6s;
     }
     &.slider-singleimg-hm11 img {
       -webkit-animation-name: fadeInUp;
-              animation-name: fadeInUp;
+      animation-name: fadeInUp;
       -webkit-animation-delay: 1.6s;
-              animation-delay: 1.6s;
+      animation-delay: 1.6s;
     }
     .content-img img {
       -webkit-animation-name: fadeInUp;
-              animation-name: fadeInUp;
-      -webkit-animation-delay: 1.0s;
-              animation-delay: 1.0s;
+      animation-name: fadeInUp;
+      -webkit-animation-delay: 1s;
+      animation-delay: 1s;
     }
   }
   .slider-animated-2 {
     h3 {
       -webkit-animation-name: fadeInLeft;
-              animation-name: fadeInLeft;
-      -webkit-animation-delay: 1.0s;
-              animation-delay: 1.0s;
+      animation-name: fadeInLeft;
+      -webkit-animation-delay: 1s;
+      animation-delay: 1s;
     }
     h1 {
       -webkit-animation-name: fadeInLeft;
-              animation-name: fadeInLeft;
+      animation-name: fadeInLeft;
       -webkit-animation-delay: 1.3s;
-              animation-delay: 1.3s;
+      animation-delay: 1.3s;
     }
     a {
       -webkit-animation-name: fadeInLeft;
-              animation-name: fadeInLeft;
+      animation-name: fadeInLeft;
       -webkit-animation-delay: 1.6s;
-              animation-delay: 1.6s;
+      animation-delay: 1.6s;
     }
     &.slider-singleimg-hm10 img {
       -webkit-animation-name: fadeInRight;
-              animation-name: fadeInRight;
+      animation-name: fadeInRight;
       -webkit-animation-delay: 1.6s;
-              animation-delay: 1.6s;
+      animation-delay: 1.6s;
     }
   }
 }
@@ -428,7 +432,6 @@
     }
   }
 
-
   .swiper-pagination-bullets {
     position: absolute;
     right: 0;
@@ -455,7 +458,7 @@
         bottom: -3px;
         left: -3px;
 
-        content: "";
+        content: '';
 
         border: 1px solid transparent;
         border-radius: 100%;
@@ -497,7 +500,7 @@
       width: 120px;
       height: 2px;
 
-      content: "";
+      content: '';
 
       background-color: #000000;
       @media #{$xs-layout} {
@@ -747,10 +750,6 @@
   }
 }
 
-
-
-
-
 /* home 3 */
 
 .slider-height-2 {
@@ -791,7 +790,7 @@
       width: 80px;
       height: 2px;
 
-      content: "";
+      content: '';
 
       background-color: #000000;
     }
@@ -803,7 +802,7 @@
       width: 80px;
       height: 2px;
 
-      content: "";
+      content: '';
 
       background-color: #000000;
     }
@@ -965,7 +964,6 @@
   }
 }
 
-
 /* slider hm4 */
 
 .slider-height-3 {
@@ -1063,9 +1061,6 @@
     }
   }
 }
-
-
-
 
 /* slider 5 */
 
@@ -1222,7 +1217,6 @@
   }
 }
 
-
 /* slider 6 hm7 */
 
 .slider-height-5 {
@@ -1243,7 +1237,6 @@
     height: 500px;
   }
 }
-
 
 .slider-content-6 {
   h1 {
@@ -1333,7 +1326,6 @@
   }
 }
 
-
 /* slider hm8 */
 
 .slider-height-6 {
@@ -1357,7 +1349,6 @@
     margin: 0 0 0;
   }
 }
-
 
 /* slider hm9 */
 .slider-height-7 {
@@ -1508,7 +1499,6 @@
   }
 }
 
-
 /* slider hm10 */
 
 .slider-height-8 {
@@ -1547,9 +1537,7 @@
   }
 }
 
-
 /* home 11 */
-
 
 .slider-height-9 {
   height: 780px;
@@ -1694,7 +1682,6 @@
   }
 }
 
-
 /* home 12 */
 
 #section2 .fp-tableCell,
@@ -1707,8 +1694,6 @@
   display: flex;
   align-items: flex-end;
 }
-
-
 
 #section5 .fp-tableCell {
   height: auto !important;
@@ -1740,7 +1725,6 @@
   }
 }
 
-
 .fullpage-slider-mrg {
   margin-top: -34px;
   @media #{$xs-layout} {
@@ -1762,31 +1746,30 @@
   .slider-animated-1 {
     h3 {
       -webkit-animation-name: fadeInUp;
-              animation-name: fadeInUp;
+      animation-name: fadeInUp;
       -webkit-animation-delay: 0.5s;
-              animation-delay: 0.5s;
+      animation-delay: 0.5s;
     }
     h1 {
       -webkit-animation-name: fadeInUp;
-              animation-name: fadeInUp;
-      -webkit-animation-delay: 1.0s;
-              animation-delay: 1.0s;
+      animation-name: fadeInUp;
+      -webkit-animation-delay: 1s;
+      animation-delay: 1s;
     }
     a {
       -webkit-animation-name: fadeInUp;
-              animation-name: fadeInUp;
+      animation-name: fadeInUp;
       -webkit-animation-delay: 1.3s;
-              animation-delay: 1.3s;
+      animation-delay: 1.3s;
     }
     & img {
       -webkit-animation-name: fadeInUp;
-              animation-name: fadeInUp;
+      animation-name: fadeInUp;
       -webkit-animation-delay: 0.8s;
-              animation-delay: 0.8s;
+      animation-delay: 0.8s;
     }
   }
 }
-
 
 .slider12-img-2 {
   @media #{$xs-layout} {
@@ -1838,7 +1821,6 @@
   }
 }
 
-
 @media #{$xs-layout} {
   .fullpage-wrapper {
     padding-top: 130px;
@@ -1857,11 +1839,7 @@
   }
 }
 
-
-
-
 /* home 13 */
-
 
 .slider-content-13 {
   h5 {
@@ -1932,10 +1910,6 @@
     background-position: 55%;
   }
 }
-
-
-
-
 
 .slider-single-img-14 {
   position: relative;
@@ -2023,7 +1997,7 @@
       width: 120px;
       height: 2px;
 
-      content: "";
+      content: '';
 
       background-color: #fff;
       @media #{$xs-layout} {
@@ -2096,7 +2070,6 @@
     }
   }
 }
-
 
 .slider-content-15 {
   h1 {
@@ -2333,7 +2306,7 @@
         width: 100%;
         height: 100%;
 
-        content: "";
+        content: '';
 
         opacity: 0.5;
         background-color: #fff;
@@ -2361,7 +2334,6 @@
     margin-bottom: 30px;
   }
 }
-
 
 .ht-swiper-button-nav {
   &:after {
@@ -2391,7 +2363,6 @@
     }
   }
 }
-
 
 .slider-content-medical {
   @media #{$xs-layout} {
@@ -2466,7 +2437,6 @@
     }
   }
 }
-
 
 .slider-content-red {
   @media #{$xs-layout} {
@@ -2547,7 +2517,6 @@
     }
   }
 }
-
 
 .slider-content-brown {
   @media #{$xs-layout} {
@@ -2753,7 +2722,6 @@
       line-height: 1.4;
 
       color: #000;
-
 
       @media #{$lg-layout,
       $md-layout} {
