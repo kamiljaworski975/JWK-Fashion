@@ -4,6 +4,8 @@
   .footer-logo {
     margin-top: 41px;
     margin-bottom: 12px;
+    font-size: 2rem;
+    font-weight: 700;
     @media #{$xs-layout} {
       margin-top: 0;
     }
@@ -346,7 +348,7 @@
           width: 16px;
           height: 2px;
 
-          content: "";
+          content: '';
           transform: translateY(-50%);
 
           background-color: #7c7b7b;

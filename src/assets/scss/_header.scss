@@ -91,7 +91,15 @@
   }
 }
 .logo {
-  margin-top: 32px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-top: 0 !important;
+  a {
+    text-shadow: 5px 0 5px rgba(0, 0, 0, 0.288);
+  }
   @media #{$md-layout} {
     margin-top: 0;
   }
@@ -99,7 +107,6 @@
     margin-top: 0;
   }
   &.logo-hm5 {
-    margin-top: 41px;
     a.sticky-block {
       display: none;
       @media #{$md-layout,

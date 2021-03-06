@@ -8,7 +8,7 @@ const BlogPosts = () => {
           <div className='blog-img-2'>
             <Link to={process.env.PUBLIC_URL + '/blog-details-standard'}>
               <img
-                src={process.env.PUBLIC_URL + '/assets/img/blog/blog-9.jpg'}
+                src={process.env.PUBLIC_URL + '/assets/img/blog/blog-img.jpg'}
                 alt=''
               />
             </Link>
@@ -70,7 +70,7 @@ const BlogPosts = () => {
           <div className='blog-img-2'>
             <Link to={process.env.PUBLIC_URL + '/blog-details-standard'}>
               <img
-                src={process.env.PUBLIC_URL + '/assets/img/blog/blog-8.jpg'}
+                src={process.env.PUBLIC_URL + '/assets/img/blog/blog-img.jpg'}
                 alt=''
               />
             </Link>
@@ -132,7 +132,7 @@ const BlogPosts = () => {
           <div className='blog-img-2'>
             <Link to={process.env.PUBLIC_URL + '/blog-details-standard'}>
               <img
-                src={process.env.PUBLIC_URL + '/assets/img/blog/blog-7.jpg'}
+                src={process.env.PUBLIC_URL + '/assets/img/blog/blog-img.jpg'}
                 alt=''
               />
             </Link>
@@ -194,7 +194,7 @@ const BlogPosts = () => {
           <div className='blog-img-2'>
             <Link to={process.env.PUBLIC_URL + '/blog-details-standard'}>
               <img
-                src={process.env.PUBLIC_URL + '/assets/img/blog/blog-6.jpg'}
+                src={process.env.PUBLIC_URL + '/assets/img/blog/blog-img.jpg'}
                 alt=''
               />
             </Link>
@@ -256,7 +256,7 @@ const BlogPosts = () => {
           <div className='blog-img-2'>
             <Link to={process.env.PUBLIC_URL + '/blog-details-standard'}>
               <img
-                src={process.env.PUBLIC_URL + '/assets/img/blog/blog-5.jpg'}
+                src={process.env.PUBLIC_URL + '/assets/img/blog/blog-img.jpg'}
                 alt=''
               />
             </Link>
@@ -318,7 +318,7 @@ const BlogPosts = () => {
           <div className='blog-img-2'>
             <Link to={process.env.PUBLIC_URL + '/blog-details-standard'}>
               <img
-                src={process.env.PUBLIC_URL + '/assets/img/blog/blog-4.jpg'}
+                src={process.env.PUBLIC_URL + '/assets/img/blog/blog-img.jpg'}
                 alt=''
               />
             </Link>

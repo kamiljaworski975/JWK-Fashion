@@ -8,7 +8,7 @@ const BlogPost = () => {
         <div className='blog-details-img'>
           <img
             alt=''
-            src={process.env.PUBLIC_URL + '/assets/img/blog/blog-5.jpg'}
+            src={process.env.PUBLIC_URL + '/assets/img/blog/blog-img.jpg'}
           />
         </div>
         <div className='blog-details-content'>
@@ -55,9 +55,7 @@ const BlogPost = () => {
             <div className='dec-img mb-50'>
               <img
                 alt=''
-                src={
-                  process.env.PUBLIC_URL + '/assets/img/blog/blog-details.jpg'
-                }
+                src={process.env.PUBLIC_URL + '/assets/img/blog/blog-img.jpg'}
               />
             </div>
           </div>
@@ -65,9 +63,7 @@ const BlogPost = () => {
             <div className='dec-img mb-50'>
               <img
                 alt=''
-                src={
-                  process.env.PUBLIC_URL + '/assets/img/blog/blog-details-2.jpg'
-                }
+                src={process.env.PUBLIC_URL + '/assets/img/blog/blog-img.jpg'}
               />
             </div>
           </div>
