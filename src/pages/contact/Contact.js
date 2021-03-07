@@ -29,8 +29,8 @@ const Contact = () => {
                       <i className='fa fa-phone' />
                     </div>
                     <div className='contact-info-dec'>
-                      <p>+012 345 678 102</p>
-                      <p>+012 345 678 102</p>
+                      <p>+012 999 999 999</p>
+                      <p>+012 000 000 000</p>
                     </div>
                   </div>
                   <div className='single-contact-info'>
@@ -39,10 +39,12 @@ const Contact = () => {
                     </div>
                     <div className='contact-info-dec'>
                       <p>
-                        <a href='mailto:urname@email.com'>urname@email.com</a>
+                        <a href='mailto:jwkfashion@email.com'>
+                          jwkfashion@email.com
+                        </a>
                       </p>
                       <p>
-                        <a href='//urwebsitenaem.com'>urwebsitenaem.com</a>
+                        <a href='//website.com'>website.com</a>
                       </p>
                     </div>
                   </div>
@@ -51,7 +53,7 @@ const Contact = () => {
                       <i className='fa fa-map-marker' />
                     </div>
                     <div className='contact-info-dec'>
-                      <p>Address goes here, </p>
+                      <p>Address, </p>
                       <p>street, Crossroad 123.</p>
                     </div>
                   </div>
