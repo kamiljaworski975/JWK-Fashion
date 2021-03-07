@@ -14,11 +14,17 @@ import './assets/scss/style.scss';
 
 import { composeWithDevTools } from 'redux-devtools-extension';
 
-const store = createStore(
-  rootReducer,
-  load(),
-  composeWithDevTools(applyMiddleware(thunk, save()))
-);
+let store;
+
+if (process.env.NODE_ENV === 'production') {
+  store = createStore(rootReducer, load(), applyMiddleware(thunk, save()));
+} else {
+  store = createStore(
+    rootReducer,
+    load(),
+    composeWithDevTools(applyMiddleware(thunk, save()))
+  );
+}
 
 // fetch products from json file
 store.dispatch(fetchProducts(products));
