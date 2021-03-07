@@ -9,10 +9,10 @@ const Contact = () => {
   return (
     <Fragment>
       <MetaTags>
-        <title>Flone | Contact</title>
+        <title>JWK Fashion | Contact</title>
         <meta
           name='description'
-          content='Contact of flone react minimalist eCommerce template.'
+          content='Contact of JWK Fashion react minimalist eCommerce template.'
         />
       </MetaTags>
       <LayoutOne headerTop='visible'>

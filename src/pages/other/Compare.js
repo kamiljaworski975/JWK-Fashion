@@ -22,10 +22,10 @@ const Compare = ({
   return (
     <Fragment>
       <MetaTags>
-        <title>Flone | Compare</title>
+        <title>JWK Fashion | Compare</title>
         <meta
           name='description'
-          content='Compare page of flone react minimalist eCommerce template.'
+          content='Compare page of JWK Fashion react minimalist eCommerce template.'
         />
       </MetaTags>
       <LayoutOne headerTop='visible'>

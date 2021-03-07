@@ -11,10 +11,10 @@ const Product = ({ product }) => {
   return (
     <Fragment>
       <MetaTags>
-        <title>Flone | Product Page</title>
+        <title>JWK Fashion | Product Page</title>
         <meta
           name='description'
-          content='Product page of flone react minimalist eCommerce template.'
+          content='Product page of JWK Fashion react minimalist eCommerce template.'
         />
       </MetaTags>
 

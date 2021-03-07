@@ -29,10 +29,10 @@ const Cart = ({
   return (
     <Fragment>
       <MetaTags>
-        <title>Flone | Cart</title>
+        <title>JWK Fashion | Cart</title>
         <meta
           name='description'
-          content='Cart page of flone react minimalist eCommerce template.'
+          content='Cart page of JWK Fashion react minimalist eCommerce template.'
         />
       </MetaTags>
 

@@ -10,10 +10,10 @@ const HomeFashion = () => {
   return (
     <Fragment>
       <MetaTags>
-        <title>JWK | Fashion Home</title>
+        <title>JWK Fashion | Fashion Home</title>
         <meta
           name='description'
-          content='Fashion home of JWK react minimalist eCommerce template'
+          content='Fashion home of JWK Fashion react minimalist eCommerce template'
         />
       </MetaTags>
       <LayoutOne headerTop='visible'>

@@ -10,10 +10,10 @@ const LoginRegister = () => {
   return (
     <Fragment>
       <MetaTags>
-        <title>Flone | Login</title>
+        <title>JWK Fashion | Login</title>
         <meta
           name='description'
-          content='Compare page of flone react minimalist eCommerce template.'
+          content='Compare page of JWK Fashion react minimalist eCommerce template.'
         />
       </MetaTags>
       <LayoutOne headerTop='visible'>

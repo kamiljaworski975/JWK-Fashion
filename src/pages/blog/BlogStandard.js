@@ -11,10 +11,10 @@ const BlogStandard = () => {
   return (
     <Fragment>
       <MetaTags>
-        <title>Flone | Blog</title>
+        <title>JWK Fashion | Blog</title>
         <meta
           name='description'
-          content='Blog of flone react minimalist eCommerce template.'
+          content='Blog of JWK Fashion react minimalist eCommerce template.'
         />
       </MetaTags>
       <LayoutOne headerTop='visible'>

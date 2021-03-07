@@ -13,10 +13,10 @@ const About = () => {
   return (
     <Fragment>
       <MetaTags>
-        <title>Flone | About us</title>
+        <title>JWK Fashion | About us</title>
         <meta
           name='description'
-          content='About page of flone react minimalist eCommerce template.'
+          content='About page of JWK Fashion react minimalist eCommerce template.'
         />
       </MetaTags>
 

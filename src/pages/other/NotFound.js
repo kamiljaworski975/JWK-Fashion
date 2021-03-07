@@ -8,10 +8,10 @@ const NotFound = () => {
   return (
     <Fragment>
       <MetaTags>
-        <title>Flone | Not Found</title>
+        <title>JWK Fashion | Not Found</title>
         <meta
           name='description'
-          content='404 page of flone react minimalist eCommerce template.'
+          content='404 page of JWK Fashion react minimalist eCommerce template.'
         />
       </MetaTags>
       <LayoutOne headerTop='visible'>

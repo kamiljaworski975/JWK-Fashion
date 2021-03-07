@@ -51,10 +51,10 @@ const ShopGridStandard = ({ location, products }) => {
   return (
     <Fragment>
       <MetaTags>
-        <title>Flone | Shop Page</title>
+        <title>JWK Fashion | Shop Page</title>
         <meta
           name='description'
-          content='Shop page of flone react minimalist eCommerce template.'
+          content='Shop page of JWK Fashion react minimalist eCommerce template.'
         />
       </MetaTags>
 
